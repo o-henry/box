@@ -2,29 +2,49 @@
   "name": "@render/box",
   "version": "1.0.0",
   "description": "Draw a re-rendering component box.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watch",
+    "build": "tsc",
+    "lint": "eslint ./src/**/*.ts"
   },
   "keywords": [
     "react",
     "re-rendering",
     "rendering",
     "visualization",
-    "utility"
+    "utility",
+    "optimization",
+    "performance"
   ],
-  "author": "Henry <c.henry.9209@gmail.com> (https://o-henry.github.io)",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/o-henry/render-box"
+  },
+  "author": "Henry <c.henry.9209@gmail.com>",
+  "homepage": "https://o-henry.github.io",
+  "license": "MIT",
+  "bugs": { "url": "https://github.com/o-henry/render-box/issues"},
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
     "@types/jest": "^26.0.23",
     "@types/node": "^15.12.2",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.7",
+    "@types/testing-library__jest-dom": "^5.14.0",
     "@typescript-eslint/eslint-plugin": "^4.27.0",
     "@typescript-eslint/parser": "^4.27.0",
+    "babel-jest": "^27.0.2",
+    "babel-loader": "^8.2.2",
     "eslint": "^7.28.0",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-prettier": "^3.4.0",
     "jest": "^27.0.4",
     "prettier": "^2.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "ts-jest": "^27.0.3",
     "typescript": "^4.3.4"
   }

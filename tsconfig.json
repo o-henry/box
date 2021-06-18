@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-      "target": "ES2018",
+      "target": "es5",
       "allowJs": true,
       "module": "commonjs" /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */,
       "strict": true /* Enable all strict type-checking options. */,
@@ -14,7 +14,7 @@
       "moduleResolution": "Node",
       "noImplicitAny": true,
       "baseUrl":".",
-      "types": ["cypress", "jest"],
+      "types": ["jest", "@testing-library/jest-dom"],
       "paths": {
         "@/*" : ["src/*"]
       }
