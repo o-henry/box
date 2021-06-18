@@ -1,7 +1,7 @@
 {
-  "name": "@render/box",
+  "name": "@visual/box",
   "version": "1.0.0",
-  "description": "Draw a re-rendering component box.",
+  "description": "Draw a box on the re-rendering component.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/o-henry/render-box"
+    "url": "git+https://github.com/o-henry/render-box.git"
   },
   "author": "Henry <c.henry.9209@gmail.com>",
   "homepage": "https://o-henry.github.io",

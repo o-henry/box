@@ -14,6 +14,7 @@
       "moduleResolution": "Node",
       "noImplicitAny": true,
       "baseUrl":".",
+      "lib": ["es2015"],
       "types": ["jest", "@testing-library/jest-dom"],
       "paths": {
         "@/*" : ["src/*"]
