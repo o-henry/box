@@ -1,6 +1,6 @@
 {
   "name": "visual-box",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Draw a box on the re-rendering component.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -25,7 +25,9 @@
   "author": "Henry <c.henry.9209@gmail.com>",
   "homepage": "https://o-henry.github.io",
   "license": "MIT",
-  "bugs": { "url": "https://github.com/o-henry/render-box/issues"},
+  "bugs": {
+    "url": "https://github.com/o-henry/render-box/issues"
+  },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
