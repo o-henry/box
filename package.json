@@ -1,0 +1,18 @@
+{
+  "name": "@render/box",
+  "version": "1.0.0",
+  "description": "Draw a re-rendering component box.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "re-rendering",
+    "rendering",
+    "visualization",
+    "utility"
+  ],
+  "author": "Henry <c.henry.9209@gmail.com> (https://o-henry.github.io)",
+  "license": "ISC"
+}
