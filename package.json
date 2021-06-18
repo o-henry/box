@@ -1,5 +1,5 @@
 {
-  "name": "@visual/box",
+  "name": "visual-box",
   "version": "1.0.0",
   "description": "Draw a box on the re-rendering component.",
   "main": "dist/index.js",
