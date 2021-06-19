@@ -51,3 +51,7 @@ export default Button;
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/48753593/122633016-2deba800-d111-11eb-86d4-6634e3674674.gif)
 
 </div>
+
+<h2>LICENSE</h2>
+
+[MIT](https://github.com/o-henry/visual-box/blob/master/LICENSE)
