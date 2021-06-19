@@ -1,20 +1,18 @@
 import React from 'react';
 import { Colors } from './utils';
 
-type Box<T> = { Component: React.ComponentType<T> };
+type Box = { Component: React.ElementType };
 
-const BoxDev =
-  <T extends object>({ Component }: Box<T>) =>
-  (props?: T) =>
-    (
-      <div style={{ border: `3px solid ${Colors()}` }}>
+const Box =
+  <T extends Box = Box>(Component: React.ComponentType<T>) =>
+  (props?: T) => {
+    return process.env.NODE_ENV === 'development' ? (
+      <div data-testid="box" style={{ border: `3px solid ${Colors()}` }}>
         <Component {...(props as T)} />
       </div>
+    ) : (
+      <Component {...(props as T)} />
     );
+  };
 
-const BoxProd =
-  <T extends object>({ Component }: Box<T>) =>
-  (props?: T) =>
-    <Component {...(props as T)} />;
-
-export const Box = process.env.NODE_ENV === 'development' ? BoxDev : BoxProd;
+export default Box;

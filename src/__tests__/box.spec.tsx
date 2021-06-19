@@ -1,4 +1,5 @@
 import { screen, render } from '@testing-library/react';
+import Box from '../index';
 
 describe('Visual Box', () => {
   it('should render box', () => {});
