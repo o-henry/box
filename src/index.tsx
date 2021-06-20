@@ -6,7 +6,7 @@ type Box = {
   children: React.ReactNode;
 };
 
-const Box = (Component: React.ElementType<Box>) => (props: Box) => {
+const Box = (Component: React.ElementType<Box | any>) => (props: Box) => {
   return process.env.NODE_ENV === 'development' ? (
     <div data-testid="box" style={{ border: `3px solid ${Colors()}` }}>
       <Component {...props} />
