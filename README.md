@@ -30,19 +30,19 @@ yarn add --dev visual-box
 
 <h2>Examples</h2>
 
-```ts
+```js
 import * as React from 'react';
 import Box from 'visual-box';
 
-function Button() {
+function Button({ children }) {
   return <button>{children}</button>;
 }
 
-export default Button;
-// → export default Box(Button)
+export default Box(Button);
+// → export default Button;
 ```
 
-- [**CODE-SANDBOX**](https://codesandbox.io/s/bitter-microservice-uif3q?file=/src/components/button.tsx)
+- [**CODE-SANDBOX**](https://codesandbox.io/s/github/o-henry/react-performance)
 
 <br/>
 
