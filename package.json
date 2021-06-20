@@ -1,6 +1,6 @@
 {
   "name": "visual-box",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Draw a box on the re-rendering component.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
