@@ -3,6 +3,7 @@ import { Colors } from './utils';
 
 type Box = {
   [key: string]: any;
+  children: React.ReactNode;
 };
 
 const Box = (Component: React.ElementType<Box>) => (props: Box) => {
