@@ -1,8 +1,18 @@
-import { screen, render } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import Box from '../index';
 
 describe('Visual Box', () => {
-  it('should render box', () => {});
+  const Title = Box(() => {
+    return (
+      <div>
+        <h1>Hello World</h1>
+      </div>
+    );
+  });
+
+  it('should render box', () => {
+    render(<Title />);
+  });
 
   it('should render only on "development" environment', () => {});
 

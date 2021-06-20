@@ -13,12 +13,12 @@
 
 <h2>Purpose</h2>
 
-Components wrapped in visual-box change color when rendering occurs.
+Components wrapped in visual-box change color when rendering occurs. <br />
 When you wrap a child component, you know if the child component is rendered simultaneously when rendering occurs in the parent component.
 
 <h2>Installation</h2>
 
-Visual-Box is available as a package on NPM & YARN.
+Visual Box is available as a package on NPM & YARN.
 
 ```
 # NPM
@@ -42,7 +42,7 @@ export default Button;
 // → export default Box(Button)
 ```
 
-- [**Example**](https://codesandbox.io/s/bitter-microservice-uif3q?file=/src/components/button.tsx)
+- [**CODE-SANDBOX**](https://codesandbox.io/s/bitter-microservice-uif3q?file=/src/components/button.tsx)
 
 <br/>
 
